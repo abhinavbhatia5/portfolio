@@ -6,6 +6,9 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    /* #contact,#projects{
+        height: fit-content;
+    } */
     
 }
 @media screen and (max-width:1200px){
@@ -21,7 +24,7 @@
         margin-top: 2rem;
     }
     #profile, .section-container{
-            display: block;
+        display: block;
     }
     .arrow{
         display: none;
@@ -44,18 +47,7 @@
         
     
 }
-@media screen and (max-width:800px){
-    .menu-links a{
-        padding: 5px;
-        text-align: center;
-        font-size: 1rem;
-    } 
-    .section_photo-container img{
-        height: 250px;
-        width: 250px;
-    }
 
-}
 @media screen and (max-width:600px){
     #contact,footer{
         height: 40vh;
@@ -85,5 +77,22 @@
     .experience-sub-title{
         font-size: 1.25rem;
     }
-    
+    .logo{
+       font-size: 1.5rem; 
+    }
+  
+    .section_photo-container{
+        width: auto;
+        height: 45vw;
+        justify-content: center;
+    }
+    .section__text_p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
 }
