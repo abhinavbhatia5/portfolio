@@ -88,6 +88,7 @@ a:hover{
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    z-index: 99;
 }
 
 .menu-links a{
